@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Debug | AdvenJourney</title>
+    <meta name="generator" content="VuePress 1.8.0">
+    
+    <meta name="description" content="Just playing around.">
+    
+    <link rel="preload" href="/assets/css/0.styles.6dee712c.css" as="style"><link rel="preload" href="/assets/js/app.f6647e61.js" as="script"><link rel="preload" href="/assets/js/2.e7ba7d10.js" as="script"><link rel="preload" href="/assets/js/15.7879a418.js" as="script"><link rel="prefetch" href="/assets/js/10.bbcd6f9d.js"><link rel="prefetch" href="/assets/js/11.5bcf1c0f.js"><link rel="prefetch" href="/assets/js/12.c4c7ad30.js"><link rel="prefetch" href="/assets/js/13.6ca428b7.js"><link rel="prefetch" href="/assets/js/14.8045a0e0.js"><link rel="prefetch" href="/assets/js/16.200440ce.js"><link rel="prefetch" href="/assets/js/17.2903d32b.js"><link rel="prefetch" href="/assets/js/18.5f6e5afc.js"><link rel="prefetch" href="/assets/js/19.4468efba.js"><link rel="prefetch" href="/assets/js/20.f176f5e5.js"><link rel="prefetch" href="/assets/js/21.5fc1974d.js"><link rel="prefetch" href="/assets/js/3.179eda7d.js"><link rel="prefetch" href="/assets/js/4.003e2e6d.js"><link rel="prefetch" href="/assets/js/5.b08c56d5.js"><link rel="prefetch" href="/assets/js/6.1c4037d1.js"><link rel="prefetch" href="/assets/js/7.84b1dbdc.js"><link rel="prefetch" href="/assets/js/8.ee868b93.js"><link rel="prefetch" href="/assets/js/9.1695b5e9.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.6dee712c.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">AdvenJourney</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/trips/" class="nav-link">
+  Trips
+</a></div><div class="nav-item"><a href="/about-us/" class="nav-link">
+  About Us
+</a></div><div class="nav-item"><a href="/login.html" class="nav-link">
+  Login
+</a></div> <a href="https://github.com/advenjourney/website" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/trips/" class="nav-link">
+  Trips
+</a></div><div class="nav-item"><a href="/about-us/" class="nav-link">
+  About Us
+</a></div><div class="nav-item"><a href="/login.html" class="nav-link">
+  Login
+</a></div> <a href="https://github.com/advenjourney/website" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="debug-infos"><a href="#debug-infos" class="header-anchor">#</a> Debug Infos</h1> <p>{
+  &quot;title&quot;: &quot;AdvenJourney&quot;,
+  &quot;description&quot;: &quot;Just playing around.&quot;,
+  &quot;base&quot;: &quot;/&quot;,
+  &quot;headTags&quot;: [],
+  &quot;pages&quot;: [
+    {
+      &quot;title&quot;: &quot;Community&quot;,
+      &quot;frontmatter&quot;: {
+        &quot;title&quot;: &quot;Community&quot;,
+        &quot;collapsable&quot;: false
+      },
+      &quot;regularPath&quot;: &quot;/about-us/community.html&quot;,
+      &quot;relativePath&quot;: &quot;about-us/community.md&quot;,
+      &quot;key&quot;: &quot;v-10216112&quot;,
+      &quot;path&quot;: &quot;/about-us/community.html&quot;,
+      &quot;headers&quot;: [
+        {
+          &quot;level&quot;: 2,
+          &quot;title&quot;: &quot;Get Started&quot;,
+          &quot;slug&quot;: &quot;get-started&quot;
+        },
+        {
+          &quot;level&quot;: 2,
+          &quot;title&quot;: &quot;Host a trip&quot;,
+          &quot;slug&quot;: &quot;host-a-trip&quot;
+        },
+        {
+          &quot;level&quot;: 2,
+          &quot;title&quot;: &quot;Join Traveling&quot;,
+          &quot;slug&quot;: &quot;join-traveling&quot;
+        }
+      ]
+    },
+    {
+      &quot;title&quot;: &quot;Mission&quot;,
+      &quot;frontmatter&quot;: {
+        &quot;title&quot;: &quot;Mission&quot;
+      },
+      &quot;regularPath&quot;: &quot;/about-us/mission.html&quot;,
+      &quot;relativePath&quot;: &quot;about-us/mission.md&quot;,
+      &quot;key&quot;: &quot;v-5601a28c&quot;,
+      &quot;path&quot;: &quot;/about-us/mission.html&quot;
+    },
+    {
+      &quot;title&quot;: &quot;Debug&quot;,
+      &quot;frontmatter&quot;: {
+        &quot;title&quot;: &quot;Debug&quot;,
+        &quot;sidebar&quot;: false
+      },
+      &quot;regularPath&quot;: &quot;/debug.html&quot;,
+      &quot;relativePath&quot;: &quot;debug.md&quot;,
+      &quot;key&quot;: &quot;v-05fad594&quot;,
+      &quot;path&quot;: &quot;/debug.html&quot;
+    },
+    {
+      &quot;title&quot;: &quot;Team&quot;,
+      &quot;frontmatter&quot;: {
+        &quot;title&quot;: &quot;Team&quot;,
+        &quot;collapsable&quot;: false
+      },
+      &quot;regularPath&quot;: &quot;/about-us/team.html&quot;,
+      &quot;relativePath&quot;: &quot;about-us/team.md&quot;,
+      &quot;key&quot;: &quot;v-6c3a14d6&quot;,
+      &quot;path&quot;: &quot;/about-us/team.html&quot;,
+      &quot;headers&quot;: [
+        {
+          &quot;level&quot;: 2,
+          &quot;title&quot;: &quot;How we Work&quot;,
+          &quot;slug&quot;: &quot;how-we-work&quot;
+        },
+        {
+          &quot;level&quot;: 2,
+          &quot;title&quot;: &quot;Product&quot;,
+          &quot;slug&quot;: &quot;product&quot;
+        },
+        {
+          &quot;level&quot;: 2,
+          &quot;title&quot;: &quot;Developers&quot;,
+          &quot;slug&quot;: &quot;developers&quot;
+        },
+        {
+          &quot;level&quot;: 2,
+          &quot;title&quot;: &quot;Trip Guides&quot;,
+          &quot;slug&quot;: &quot;trip-guides&quot;
+        },
+        {
+          &quot;level&quot;: 2,
+          &quot;title&quot;: &quot;Contributers&quot;,
+          &quot;slug&quot;: &quot;contributers&quot;
+        }
+      ]
+    },
+    {
+      &quot;title&quot;: &quot;AdvenJourney - Travel Together&quot;,
+      &quot;frontmatter&quot;: {
+        &quot;title&quot;: &quot;AdvenJourney - Travel Together&quot;,
+        &quot;lang&quot;: &quot;en-US&quot;,
+        &quot;description&quot;: &quot;About our mission and the team&quot;,
+        &quot;navbar&quot;: true,
+        &quot;sidebar&quot;: true,
+        &quot;editLink&quot;: true,
+        &quot;home&quot;: true,
+        &quot;heroImage&quot;: &quot;/title.jpeg&quot;,
+        &quot;heroAlt&quot;: &quot;Logo image&quot;,
+        &quot;heroText&quot;: &quot;AdvenJourney - Travel Together&quot;,
+        &quot;tagline&quot;: &quot;Make your journey our journey.&quot;,
+        &quot;actionText&quot;: &quot;Meet Us&quot;,
+        &quot;actionLink&quot;: &quot;/about-us/&quot;,
+        &quot;features&quot;: [
+          {
+            &quot;title&quot;: &quot;Find a trip&quot;,
+            &quot;details&quot;: &quot;There are plenty of pre-planned trips out there just waiting for you...&quot;
+          },
+          {
+            &quot;title&quot;: &quot;Create a trip&quot;,
+            &quot;details&quot;: &quot;Do you want to offer a unique trip? Plan a trip and make it visible for others to join.&quot;
+          },
+          {
+            &quot;title&quot;: &quot;Find a travel buddy&quot;,
+            &quot;details&quot;: &quot;Find your perfect travel buddy based on interests, location and many other characteristics.&quot;
+          }
+        ],
+        &quot;footer&quot;: &quot;MIT Licensed&quot;
+      },
+      &quot;regularPath&quot;: &quot;/&quot;,
+      &quot;relativePath&quot;: &quot;index.md&quot;,
+      &quot;key&quot;: &quot;v-39c32462&quot;,
+      &quot;path&quot;: &quot;/&quot;,
+      &quot;headers&quot;: [
+        {
+          &quot;level&quot;: 2,
+          &quot;title&quot;: &quot;Whats your next destination?&quot;,
+          &quot;slug&quot;: &quot;whats-your-next-destination&quot;
+        },
+        {
+          &quot;level&quot;: 2,
+          &quot;title&quot;: &quot;What you gonna do there?&quot;,
+          &quot;slug&quot;: &quot;what-you-gonna-do-there&quot;
+        }
+      ]
+    },
+    {
+      &quot;title&quot;: &quot;Login&quot;,
+      &quot;frontmatter&quot;: {
+        &quot;title&quot;: &quot;Login&quot;,
+        &quot;sidebar&quot;: false
+      },
+      &quot;regularPath&quot;: &quot;/login.html&quot;,
+      &quot;relativePath&quot;: &quot;login.md&quot;,
+      &quot;key&quot;: &quot;v-d9ef9714&quot;,
+      &quot;path&quot;: &quot;/login.html&quot;
+    },
+    {
+      &quot;title&quot;: &quot;Getting Started&quot;,
+      &quot;frontmatter&quot;: {
+        &quot;title&quot;: &quot;Getting Started&quot;
+      },
+      &quot;regularPath&quot;: &quot;/trips/create.html&quot;,
+      &quot;relativePath&quot;: &quot;trips/create.md&quot;,
+      &quot;key&quot;: &quot;v-60153c70&quot;,
+      &quot;path&quot;: &quot;/trips/create.html&quot;
+    },
+    {
+      &quot;title&quot;: &quot;About&quot;,
+      &quot;frontmatter&quot;: {
+        &quot;title&quot;: &quot;About&quot;,
+        &quot;lang&quot;: &quot;en-US&quot;,
+        &quot;description&quot;: &quot;About our mission and the team&quot;,
+        &quot;navbar&quot;: true,
+        &quot;sidebar&quot;: true,
+        &quot;editLink&quot;: true
+      },
+      &quot;regularPath&quot;: &quot;/about-us/&quot;,
+      &quot;relativePath&quot;: &quot;about-us/index.md&quot;,
+      &quot;key&quot;: &quot;v-5851448e&quot;,
+      &quot;path&quot;: &quot;/about-us/&quot;
+    },
+    {
+      &quot;title&quot;: &quot;Places&quot;,
+      &quot;frontmatter&quot;: {
+        &quot;title&quot;: &quot;Places&quot;,
+        &quot;collapsable&quot;: false
+      },
+      &quot;regularPath&quot;: &quot;/trips/places.html&quot;,
+      &quot;relativePath&quot;: &quot;trips/places.md&quot;,
+      &quot;key&quot;: &quot;v-2abe51b0&quot;,
+      &quot;path&quot;: &quot;/trips/places.html&quot;,
+      &quot;headers&quot;: [
+        {
+          &quot;level&quot;: 2,
+          &quot;title&quot;: &quot;Europe&quot;,
+          &quot;slug&quot;: &quot;europe&quot;
+        },
+        {
+          &quot;level&quot;: 2,
+          &quot;title&quot;: &quot;Asia&quot;,
+          &quot;slug&quot;: &quot;asia&quot;
+        },
+        {
+          &quot;level&quot;: 2,
+          &quot;title&quot;: &quot;Australia&quot;,
+          &quot;slug&quot;: &quot;australia&quot;
+        },
+        {
+          &quot;level&quot;: 2,
+          &quot;title&quot;: &quot;America&quot;,
+          &quot;slug&quot;: &quot;america&quot;
+        },
+        {
+          &quot;level&quot;: 2,
+          &quot;title&quot;: &quot;Africa&quot;,
+          &quot;slug&quot;: &quot;africa&quot;
+        }
+      ]
+    },
+    {
+      &quot;title&quot;: &quot;Find a Trip&quot;,
+      &quot;frontmatter&quot;: {},
+      &quot;regularPath&quot;: &quot;/trips/&quot;,
+      &quot;relativePath&quot;: &quot;trips/index.md&quot;,
+      &quot;key&quot;: &quot;v-7768e22f&quot;,
+      &quot;path&quot;: &quot;/trips/&quot;
+    },
+    {
+      &quot;title&quot;: &quot;Find people to join&quot;,
+      &quot;frontmatter&quot;: {
+        &quot;title&quot;: &quot;Find people to join&quot;
+      },
+      &quot;regularPath&quot;: &quot;/trips/publish.html&quot;,
+      &quot;relativePath&quot;: &quot;trips/publish.md&quot;,
+      &quot;key&quot;: &quot;v-3a1ad654&quot;,
+      &quot;path&quot;: &quot;/trips/publish.html&quot;
+    },
+    {
+      &quot;title&quot;: &quot;Join a Trip&quot;,
+      &quot;frontmatter&quot;: {
+        &quot;title&quot;: &quot;Join a Trip&quot;
+      },
+      &quot;regularPath&quot;: &quot;/trips/join.html&quot;,
+      &quot;relativePath&quot;: &quot;trips/join.md&quot;,
+      &quot;key&quot;: &quot;v-d820b2a8&quot;,
+      &quot;path&quot;: &quot;/trips/join.html&quot;,
+      &quot;headers&quot;: [
+        {
+          &quot;level&quot;: 2,
+          &quot;title&quot;: &quot;Find like minded travelers&quot;,
+          &quot;slug&quot;: &quot;find-like-minded-travelers&quot;
+        }
+      ]
+    }
+  ],
+  &quot;themeConfig&quot;: {
+    &quot;custom&quot;: {
+      &quot;url&quot;: &quot;http://staging.advenjourney.systems:32089/query&quot;
+    },
+    &quot;repo&quot;: &quot;advenjourney/website&quot;,
+    &quot;docsBranch&quot;: &quot;main&quot;,
+    &quot;docsDir&quot;: &quot;docs&quot;,
+    &quot;editLinks&quot;: true,
+    &quot;editLinkText&quot;: &quot;Edit this page&quot;,
+    &quot;nav&quot;: [
+      {
+        &quot;text&quot;: &quot;Trips&quot;,
+        &quot;link&quot;: &quot;/trips/&quot;,
+        &quot;activeMatch&quot;: &quot;^/trips/&quot;,
+        &quot;type&quot;: &quot;link&quot;,
+        &quot;items&quot;: []
+      },
+      {
+        &quot;text&quot;: &quot;About Us&quot;,
+        &quot;link&quot;: &quot;/about-us/&quot;,
+        &quot;activeMatch&quot;: &quot;^/about-us/&quot;,
+        &quot;type&quot;: &quot;link&quot;,
+        &quot;items&quot;: []
+      },
+      {
+        &quot;text&quot;: &quot;Login&quot;,
+        &quot;link&quot;: &quot;/login&quot;,
+        &quot;type&quot;: &quot;link&quot;,
+        &quot;items&quot;: []
+      }
+    ],
+    &quot;displayAllHeaders&quot;: true,
+    &quot;sidebar&quot;: {
+      &quot;/trips/&quot;: [
+        &quot;&quot;,
+        &quot;places&quot;,
+        {
+          &quot;title&quot;: &quot;Join a Trip&quot;,
+          &quot;path&quot;: &quot;/trips/join&quot;,
+          &quot;collapsable&quot;: false
+        },
+        {
+          &quot;title&quot;: &quot;Create a Trip&quot;,
+          &quot;collapsable&quot;: false,
+          &quot;children&quot;: [
+            &quot;create&quot;,
+            &quot;publish&quot;
+          ]
+        }
+      ],
+      &quot;/about-us/&quot;: [
+        &quot;&quot;,
+        &quot;mission&quot;,
+        &quot;community&quot;,
+        &quot;team&quot;
+      ]
+    }
+  }
+}</p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/advenjourney/website/edit/main/docs/debug.md" target="_blank" rel="noopener noreferrer">Edit this page</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.f6647e61.js" defer></script><script src="/assets/js/2.e7ba7d10.js" defer></script><script src="/assets/js/15.7879a418.js" defer></script>
+  </body>
+</html>
